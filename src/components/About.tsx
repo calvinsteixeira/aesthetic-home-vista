@@ -14,7 +14,7 @@ const About = () => {
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="animate-slide-in-left">
-            <h2 className="text-4xl md:text-5xl font-crimson font-bold text-primary mb-6">
+            <h2 className="text-4xl md:text-5xl font-playfair font-bold text-primary mb-6">
               Sobre Mim
             </h2>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">

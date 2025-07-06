@@ -1,4 +1,3 @@
-
 import { Home, Building, Palette, Lightbulb, Sofa, TreePine } from 'lucide-react';
 
 const Services = () => {
@@ -45,7 +44,7 @@ const Services = () => {
     <section id="services" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-crimson font-bold text-primary mb-6">
+          <h2 className="text-4xl md:text-5xl font-playfair font-bold text-primary mb-6">
             Serviços
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -63,7 +62,7 @@ const Services = () => {
                 <div className="w-16 h-16 bg-gold-100 rounded-2xl flex items-center justify-center mb-4 group-hover:bg-gold-500 transition-colors duration-300">
                   <service.icon className="text-gold-600 group-hover:text-white transition-colors duration-300" size={28} />
                 </div>
-                <h3 className="text-xl font-crimson font-semibold text-primary mb-3">
+                <h3 className="text-xl font-playfair font-semibold text-primary mb-3">
                   {service.title}
                 </h3>
                 <p className="text-muted-foreground leading-relaxed mb-4">

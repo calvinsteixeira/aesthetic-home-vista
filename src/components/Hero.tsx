@@ -14,7 +14,7 @@ const Hero = () => {
     <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-cream-50 to-cream-100 pt-20">
       <div className="container mx-auto px-4 text-center">
         <div className="animate-fade-in">
-          <h1 className="text-5xl md:text-7xl font-crimson font-bold text-primary mb-6 text-balance">
+          <h1 className="text-5xl md:text-7xl font-playfair font-bold text-primary mb-6 text-balance">
             Transformando
             <span className="text-gold-500"> Espaços</span>
             <br />
