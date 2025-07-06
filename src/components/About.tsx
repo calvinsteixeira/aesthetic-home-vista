@@ -14,7 +14,7 @@ const About = () => {
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="animate-slide-in-left">
-            <h2 className="text-4xl md:text-5xl font-playfair font-bold text-primary mb-6">
+            <h2 className="text-4xl md:text-5xl font-crimson font-bold text-primary mb-6">
               Sobre Mim
             </h2>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
@@ -37,7 +37,7 @@ const About = () => {
               {stats.map((stat, index) => (
                 <div key={index} className="text-center p-4 bg-cream-50 rounded-lg">
                   <stat.icon className="mx-auto mb-2 text-gold-500" size={24} />
-                  <div className="text-2xl font-playfair font-bold text-primary">{stat.number}</div>
+                  <div className="text-2xl font-crimson font-bold text-primary">{stat.number}</div>
                   <div className="text-sm text-muted-foreground">{stat.label}</div>
                 </div>
               ))}

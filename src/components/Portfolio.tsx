@@ -64,7 +64,7 @@ const Portfolio = () => {
     <section id="portfolio" className="py-20 bg-cream-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-playfair font-bold text-primary mb-6">
+          <h2 className="text-4xl md:text-5xl font-crimson font-bold text-primary mb-6">
             Portfolio
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -100,7 +100,7 @@ const Portfolio = () => {
                 {project.image}
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-playfair font-semibold text-primary mb-2">
+                <h3 className="text-xl font-crimson font-semibold text-primary mb-2">
                   {project.title}
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
